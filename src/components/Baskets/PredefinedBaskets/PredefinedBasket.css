@@ -1,0 +1,185 @@
+.predefinedBaskets {
+  color: #8e8787;
+}
+
+.predefinedBaskets__header {
+  margin-bottom: 1rem;
+}
+
+.predefinedBaskets__header > h3 {
+  font-size: calc(1.1rem + .6vw);
+  font-weight: 800;
+  color: #fff;
+}
+
+.predefinedBaskets__header > p {
+  font-size: calc(0.5rem + .6vw);
+}
+
+.predefinedBaskets__header > .predefinedBaskets__header--sort {
+  display: flex;
+  align-items: center;
+}
+
+.predefinedBaskets__header > .predefinedBaskets__header--sort > label {
+  font-size: calc(1rem + 0.05vw);
+  line-height: 30px;
+  color: #95979b;
+  margin-right: 1rem;
+}
+
+.predefinedBaskets__header > .predefinedBaskets__header--sort > select {
+  padding: 0.5rem 4rem;
+  font-size: calc(0.4rem + 0.05vw);
+  font-weight: 600;
+  background-color: var(--sidebar_background_color);
+  color: var(--sidebar_link_color);
+  cursor: pointer;
+  border-radius: 3px;
+  border: none !important;
+  outline: none !important;
+}
+
+.predefinedBaskets__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.predefinedBaskets__baskets {
+    margin-top: 2.4rem;
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.predefinedBaskets__baskets--column3, .predefinedBaskets__baskets--column2, .predefinedBaskets__baskets--column1 {
+    display: grid;
+    grid-gap: 1.2rem;
+}
+
+.predefinedBaskets__info {
+    background: #131419;
+    margin: 2.35rem 0rem;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    width: 30%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+ 
+.predefinedBaskets__info--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.predefinedBaskets__info--header--exportBtn {
+  transition: all 0.2s ease-in-out;
+}
+
+.predefinedBaskets__info--header--exportBtn:hover {
+  color: rgba(255, 255, 255, 0.589);
+}
+
+.predefinedBaskets__info--main {
+  height: calc(30rem + 0.05vh);
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  margin-right: -10px;
+  padding-right: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+.predefinedBaskets__info--main::-webkit-scrollbar-thumb {
+  background: #1c2d46;
+}
+
+.predefinedBaskets__info--main > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.predefinedBaskets__info--main > div > label {
+    background: #1c2d46;
+    color: #4f7ffc;
+    border: 1px solid #4f7ffc;
+    padding: 0.25rem 0.95rem;
+    text-align: right;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.predefinedBaskets__info--main > div > label:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.predefinedBaskets__info--main > div > p {
+    text-align: left;
+}
+
+
+/* Styling for Tiles */
+.predefinedBasketsTiles {
+  transition: all 10s ease-in-out;
+}
+
+
+
+.predefinedBasketTiles:focus {
+  box-shadow: 2px 0px 5px 3px rgb(52, 185, 0);
+}
+
+
+.shadow-focus:focus {
+  box-shadow: 2px 0px 5px 3px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.shadow-focus{
+  border-radius: 40px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+
+.tiletile{
+  width: 200px;
+  border-radius: 10px;
+}
+
+
+
+
+.predefinedBaskets__info--header > div > div > a, .predefinedBaskets__info--header > div > div {
+  text-decoration: none;
+  color: var(--dark_text_color);
+  cursor: pointer;
+}
+
+.predefinedBaskets__exportBasketDropdown {
+  position: relative;
+}
+
+.predefinedBaskets__exportBasketDropdown > div {
+  position: absolute;
+  width: max-content;
+  left: -125%;
+
+  background-color: var(--dropdown_background);
+  padding: 0.5rem ;
+  border-radius: 5px;
+}
+
+.predefinedBaskets__exportBasketDropdown > div > div {
+  margin-top: 0.5rem
+}

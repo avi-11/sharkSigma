@@ -1,0 +1,30 @@
+body {
+  background: var(--dropdown_background);
+}
+
+.chartContainer {
+  position: relative;
+  left: 150px;
+  top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  /* max-width: 50rem; */
+  padding: 1rem;
+}
+.chartContainerOpen {
+  position: relative;
+  left: 280px;
+  top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  /* max-width: 50rem; */
+  padding: 1rem;
+}
+
+.chart {
+  color: white;
+  margin: 1rem;
+  background: var(--marketOverview_card_bakground);
+  width: 20rem;
+  height: 13rem;
+}

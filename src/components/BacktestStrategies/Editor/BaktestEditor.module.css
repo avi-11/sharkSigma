@@ -1,0 +1,142 @@
+.editor {
+  display: flex;
+  background-color: #000005;
+  border: 1px solid #36373f;
+}
+
+.editor__sidebar {
+  color: #f3f3f3;
+  width: calc(12rem + 1vw);
+  min-width: 150px;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
+.editor__sidebar_header {
+  border-bottom: 1px solid #36373f;
+  font-size: calc(1rem + 0.5vw);
+  padding: 0.5rem 1rem;
+}
+
+.editor__sidebar_fileMenu {
+  border-bottom: 1px solid #36373f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.editor__sidebar_fileIcons > img {
+  width: 1.15rem;
+  margin: 0rem 0rem 0rem 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.editor__sidebar_fileIcons > img:hover {
+  transform: scale(110%, 110%);
+}
+
+.editor__sidebar > ul {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.editor__sidebar > ul > li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0.5rem;
+  margin: 0.15rem 0rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.editor__sidebar > ul > li:hover,
+.editor__editor_files > ul > li:hover {
+  background-color: #181a24;
+}
+
+.editor__sidebar > ul > li img {
+  width: 1.15rem;
+  transform: scale((110%, 110%));
+}
+
+.editor__sidebar > ul > li img:hover {
+  transform: scale(110%, 110%);
+}
+
+.fileCreationForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fileCreationForm > input {
+  width: 90%;
+  border: 1px solid #f3f3f3;
+  outline: none;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+.editor__editor_files {
+  border-left: 1px solid #36373f;
+  border-bottom: 1px solid #36373f;
+}
+
+.editor__editor_files > ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  overflow: scroll;
+}
+
+.editor__editor_files > ul::-webkit-scrollbar{
+  display: none;
+}
+
+.editor__editor_files > ul > li {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 1px solid #36373f;
+  color: #fff;
+  padding: 1rem 0.75rem;
+  cursor: pointer;
+}
+
+.editor__editor_closeFile{
+  margin: 0 1rem;
+}
+
+.editor__editor_closeFile:hover {
+  transform: scale(125%, 125%);
+}
+
+.editor__sidebarFileMenu {
+  position: absolute;
+  color: green;
+}
+
+.editor__editor {
+  width: 60% !important;
+}
+
+.editor__output {
+  /* line-height: 01; */
+  color: white;
+  /* background-color: #333; */
+  text-align: center;
+  min-width: 100px !important;
+}
+
+.editor__output > h5 {
+  padding: 0.5rem 1rem;
+}
+
+.editor_fileName{
+  max-width: 10rem;
+  word-break: break-all;
+}

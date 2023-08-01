@@ -1,0 +1,156 @@
+.brokerage_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background: #292C3D;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+padding-bottom: 4rem;
+}
+
+.brokerage_login_inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.brokerage_loginSwitch{
+    display: flex;
+    border-bottom: 1px solid #525461;
+    width: 100%;
+    
+    
+}
+.brokerage_loginSwitch_API{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px 0 0 0;
+    padding: 1rem 0;
+}
+
+.brokerage_loginSwitch_Username{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 5px 0 0;
+    padding: 1rem 0;
+}
+
+.brokerage_loginSwitch_API:hover,.brokerage_loginSwitch_Username:hover{
+    background: #363949;
+}
+
+.BrokerageList_activeBrokerages{
+    display: flex;
+    border-bottom: 1px solid white;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.BrokerageList_InactiveBrokerages{
+    display: flex;
+}
+
+.BrokerageList_activeItems{
+    background: #292C3D;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    margin-top: 1rem;
+    margin-right: 4rem;
+}
+
+.BrokerageList_InactiveItems{
+    background: #292C3D;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    margin-top: 1rem;
+    margin-right: 4rem;
+    opacity: 0.3;
+}
+
+.BrokerageList_addBrokerage{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    padding: 0.5rem;
+    position: relative;
+    bottom: 8rem;
+    left: 1rem;
+    transition-duration: 1s;
+}
+
+.BrokerageList_addBrokerage:hover{
+    transform: scale(1.1);
+}
+
+.BrokerageList_itemName{
+    color: white;
+    margin-bottom: 1rem;
+    
+}
+
+.VerifyBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #292C3D;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.brokerage_otp{
+    background: #292C3D;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    padding: 3rem;
+    margin-top: 4rem;
+}
+
+.brokerage_otpTimer{
+    background: #434656;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.otpInput{
+    background: #363949;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 4px;
+    width: 4rem;
+    padding: 0.5rem;
+    height: 4rem;
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+}

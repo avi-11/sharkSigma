@@ -1,0 +1,100 @@
+.basketInstrumentSearch {
+    margin-left: 10rem;
+    position: relative;
+}
+
+.basketInstrumentSearch > input {
+    /* max-width: 50rem; */
+    min-width: 30rem;
+
+    padding: 0.5rem;
+    font-size: 0.85rem;
+
+    border: 1px solid var(--creteBasketInput_border);
+    background-color: transparent;
+    outline: none;
+    color: var(--sidebar_link_color);
+}
+
+.basketInstrumentSearch__dataContainer {
+    position: absolute;
+
+    width: 100%;
+    max-height: 15rem;
+    overflow-y: scroll;
+    
+    background-color: var(--createBasketForm_background);
+    color: white;
+    border: 1px solid var(--creteBasketInput_border);
+
+    padding: 1rem;
+
+    z-index: 100;
+}
+
+.basketInstrumentSearch__dataContainer > div > h5, .basketInstrumentSearch__dataContainer > div > span {
+    color: var(--searchBasket_HeaderColor);
+    font-size: 1rem;
+}
+
+.basketInstrumentSearch__dataContainer > div > span {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.basketInstrumentSearch__dataContainer > div > span:hover {
+    color: white
+}
+
+.basketInstrumentSearch__dataContainer > hr {
+    color: var(--dividing_line)
+}
+
+.basketInstrumentSearch__dataContainer::-webkit-scrollbar-thumb {
+    background: #1c2d46;
+}
+
+.basketInstrumentSearch__dataContainer > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    margin: 0.5rem 0rem;
+}
+
+.basketInstrumentSearch__dataContainer > div > label {
+    color: var(--pagination_buttonHover_background);
+    background-color: var(--tickerBackgroundColor);
+    border: 1px solid var(--tickerBackgroundColor);
+
+    min-width: 5rem;
+    text-align: center;
+    padding: 0.05rem 0.5rem;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.basketInstrumentSearch__dataContainer > div > label:hover {
+    background-color: transparent;
+}
+
+.basketInstrumentSearch__dataContainer > div > p {
+    margin: 0rem !important
+}
+
+.basketInstrumentSearch__dataContainer > div > div > button {
+    border: 1px solid var(--addInstrumentToBasket_btnColor);
+    color: white;
+    outline: none;
+    background: var(--addInstrumentToBasket_btnColor);
+
+    padding: 0.05rem 0.75rem;
+    word-spacing: 5px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.basketInstrumentSearch__dataContainer > div > div > button:hover {
+    background-color: transparent;
+}

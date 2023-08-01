@@ -1,0 +1,31 @@
+form .MuiFormControl-root {
+  margin: 0.75rem 0rem;
+}
+
+.loginTwo__form--LoginBtn {
+  margin: 0rem;
+}
+
+.signUp__heading {
+  font-size: 2rem;
+  color: rgb(244, 245, 245);
+}
+
+.signUp__intro {
+  color: var(--new_link_border_color);
+  font-size: 0.9rem;
+}
+
+@media (min-width: 700px) {
+  .signUp__fromContainer {
+    padding-top: 2rem;
+  }
+
+  .signUp__form--name {
+    display: flex;
+  }
+
+  .signUp__form--name > .MuiFormControl-root {
+    margin: 0.75rem 0rem;
+  }
+}

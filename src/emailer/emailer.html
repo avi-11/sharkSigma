@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Lato', sans-serif;
+        /* overflow: hidden; */
+        display: flex;
+        flex-direction: column;
+        /* max-height: 50%; */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .d-flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .email-container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 90%;
+        /* flex: 0.8; */
+      }
+      .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background: #121212;
+        padding: 2%;
+        height: 10%;
+      }
+      .navbar-list {
+        display: flex;
+      }
+      .navbar-list li {
+        list-style: none;
+      }
+      .navbar-list li a {
+        text-decoration: none;
+        color: white;
+        margin: 0.7rem;
+      }
+      .welcome-section {
+        background: #0b81ee;
+        padding: 1%;
+        /* padding-bottom: 3%; */
+        color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 27%;
+      }
+      .welome {
+        margin: 3%;
+      }
+      .welcome-head {
+        font-size: 150%;
+        font-weight: 600;
+      }
+      .welcome-section a {
+        background: white;
+        text-decoration: none;
+        padding: 0.5rem 0.7rem;
+        border-radius: 5px;
+      }
+      .welcome-info {
+        max-width: 80%;
+        text-align: center;
+        margin: 3%;
+      }
+      .account-section {
+        background: linear-gradient(
+          101.59deg,
+          #d62828 -51.81%,
+          #f77f00 41.67%,
+          #fcbf49 118.28%
+        );
+        height: 20%;
+      }
+      .account-info {
+        flex-direction: column;
+        background: rgba(228, 221, 221, 0.1);
+        width: 50%;
+        padding: 3% 2%;
+        height: 100%;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        /* opacity: 0.1; */
+      }
+      .account {
+        font-size: 1.5rem;
+        font-weight: bold;
+        height: 30%;
+        margin: 2%;
+      }
+      .info {
+        margin: 1%;
+        margin-bottom: 0;
+        height: 70%;
+        width: 100%;
+      }
+      .info li {
+        list-style: none;
+        margin: 1%;
+        /* font-size: 80%; */
+      }
+      .features {
+        padding: 1%;
+        height: 33%;
+      }
+      .features-head {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin: 1%;
+      }
+      .feature-item li {
+        margin: 1%;
+      }
+      .footer {
+        justify-content: space-between;
+        background: #121212;
+        padding: 1%;
+        height: 10%;
+      }
+      .footer-list li {
+        list-style: none;
+        margin: 0 0.5rem;
+      }
+      .footer-list li a {
+        text-decoration: none;
+        color: white;
+      }
+      @media (max-width: 768px) {
+        .email-container {
+          height: 100%;
+          width: 100%;
+        }
+        .welcome-info {
+          max-width: 90%;
+          text-align: center;
+          margin: 5%;
+          font-size: 90%;
+        }
+        .welcome-section a {
+          font-size: 90%;
+        }
+        .account-info {
+          width: 60%;
+        }
+        .account {
+          font-size: 130%;
+        }
+        .info li {
+          font-size: 80%;
+          margin: 2%;
+        }
+        .feature-item li {
+          font-size: 80%;
+          margin: 4%;
+        }
+        .features {
+          padding: 3%;
+          height: 35%;
+        }
+        .features-head {
+          font-size: 110%;
+          font-weight: 600;
+          margin: 1%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="main"> -->
+    <div class="email-container">
+      <div class="navbar">
+        <div class="logo">
+          <img width="60%" src="./brandImage.PNG" alt="img" />
+        </div>
+        <ul class="navbar-list">
+          <li><a href="https://www.invsto.com/">Invsto</a></li>
+          <li><a href="#">Discord</a></li>
+        </ul>
+      </div>
+      <div class="welcome-section">
+        <div class="welcome">Welcome to</div>
+        <div class="welcome-head">SHARK SIGMA</div>
+        <div class="welcome-info">
+          The only platform you need for risk management and portfolio analytics
+          for digital assets
+        </div>
+        <div><a href="#">LOG IN TO SHARK SIGMA</a></div>
+      </div>
+      <div class="account-section d-flex">
+        <div class="account-info d-flex">
+          <div class="account">Account Information</div>
+          <div class="info">
+            <li>Login ID - CTUIKOMAYANK52</li>
+            <li>Customer ID - Cdhfjhfjkh545450</li>
+            <li>Registered Email - abc@xyz.com</li>
+          </div>
+        </div>
+      </div>
+      <div class="features">
+        <div class="features-head">EXPLORE OUR BRAND NEW FEATURES</div>
+        <div class="feature-item">
+          <li>RISK MANAGEMENT AND PORTFOLIO ANALYTICS</li>
+          <li>Systematic trading strategies</li>
+          <li>AI driven research</li>
+          <li>Trading API execution</li>
+          <li>
+            Digital asset classes across equities, derivatives, crypto and forex
+          </li>
+        </div>
+      </div>
+      <div class="footer d-flex">
+        <div class="logo-footer">
+          <!-- <img width="50%" src="./brandImage.PNG" alt="img" /> -->
+        </div>
+        <ul class="d-flex footer-list">
+          <li>
+            <a href="#"
+              ><i style="color: #00acee" class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i style="color: #00acee" class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i style="color: #00acee" class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li><a href="https://www.invsto.com/">@Invsto</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- </div> -->
+  </body>
+</html>

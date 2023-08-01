@@ -1,0 +1,39 @@
+.text-main {
+  color: var(--heading_color);
+  background: linear-gradient(
+    125.26deg,
+    #0a0c0f 18.66%,
+    rgba(10, 12, 15, 0) 100.68%
+  );
+  box-shadow: 0px 4px 4px 6px rgba(255, 254, 254, 0.25);
+  margin: 2rem;
+  width: 60%;
+}
+.center {
+  color: var(--pagination_buttonHover_background);
+  font-weight: 600;
+}
+.main-signup-container {
+  height: 100vh;
+}
+.signup-content {
+  font-size: 1.9rem;
+}
+.shark-signup-btn {
+  background: var(--blue_heading_color);
+  color: var(--heading_color);
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .text-main {
+    width: 100%;
+    box-shadow: none;
+    padding: 2rem 0 !important;
+  }
+  .signup-content {
+    font-size: 1.3rem;
+  }
+}

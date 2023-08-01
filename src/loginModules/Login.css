@@ -1,0 +1,168 @@
+.loginTwo {
+  color: rgb(179, 180, 188);
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  font-family: "Lato", sans-serif !important;
+  background-color: var(--new_primary_background_color);
+}
+
+.loginTwo > .loginTwo__section {
+  display: block;
+  width: 100%;
+}
+
+.loginTwo__section--imgContainer {
+  width: 50%;
+  min-width: 190px;
+  max-width: 400px;
+  margin: 0rem auto;
+}
+
+.loginTwo__section--imgContainer > img {
+  width: 100%;
+}
+
+.loginTwo__section--formContainer {
+  max-width: 450px;
+  margin: 0rem auto;
+}
+
+.loginTwo__formHeading {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  color: rgb(244, 245, 245);
+  /* padding: 0.5rem 0rem; */
+}
+
+.loginTwo__formHeading--brand {
+  color: var(--primary_button_color);
+  font-weight: 600;
+}
+
+form .MuiFormControl-root > .MuiInputLabel-root {
+  color: var(--white_color);
+  padding: 0px 1rem;
+  background-color: var(--new_textField_Background);
+  font-size: 0.9rem;
+}
+
+form .MuiFormControl-root > .MuiInputLabel-shrink {
+  color: var(--white_color);
+  background-color: var(--new_primary_background_color);
+}
+
+form .MuiFormControl-root > .MuiOutlinedInput-root {
+  color: white;
+}
+
+form .MuiFormControl-root > .MuiOutlinedInput-root > .MuiOutlinedInput-input {
+  transition: background-color 0.3s ease-in-out;
+}
+
+form .MuiFormControl-root > .MuiOutlinedInput-root > .MuiOutlinedInput-input {
+  background-color: var(--new_textField_Background);
+}
+
+form .MuiFormControl-root > .MuiOutlinedInput-root > fieldset {
+  border: 2px solid rgb(80, 80, 80);
+}
+
+form
+  .MuiFormControl-root
+  > .MuiOutlinedInput-root
+  > .MuiOutlinedInput-notchedOutline:focus {
+  border-color: #0b81ee;
+}
+
+.loginTwo__form--usernameFormat {
+  color: grey;
+  padding-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.loginTwo__forgotPassLink {
+  margin: 0.5rem 0rem;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.loginTwo__forgotPassLink > a {
+  color: var(--new_link_border_color);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.loginTwo__form--LoginBtn {
+  width: 200px;
+  max-height: 60px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--primary_button_color);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem;
+  padding: 0.5rem;
+  margin: 1rem 0rem 0rem 0rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.loginTwo__form--LoginBtn:hover {
+  box-shadow: 0px 4px 8px 3px rgba(241, 242, 243, 0.15),
+    0px 1px 3px rgba(241, 242, 243, 0.3);
+}
+
+.loginTwo__signupLink {
+  margin: 1rem 0rem;
+  color: grey;
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+.loginTwo__signupLink a {
+  text-decoration: none;
+  color: var(--new_link_border_color);
+}
+
+a {
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: rgb(244, 245, 245);
+}
+
+@media (min-width: 700px) {
+  .loginTwo__section {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .loginTwo__section > div {
+    width: 100% !important;
+  }
+
+  .loginTwo__section--mainContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+  }
+
+  .loginTwo__section--imgContainer {
+    margin: 0rem 0rem;
+  }
+
+  .loginTwo__section--formContainer {
+    width: 40%;
+    min-width: 250px;
+    margin: 0rem 0rem;
+  }
+}

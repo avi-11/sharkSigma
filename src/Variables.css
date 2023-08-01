@@ -1,0 +1,52 @@
+:root {
+  /* Universal Colors */
+  --whiteColor: #fff;
+
+  /* Button Colors */
+  --primary_button_color: #7962fa;
+  --secondary_button_color: #c7c1e6;
+  --tertiary_button_color: #c7c8cc;
+
+  /* Background Colors */
+  --new_primary_background_color: #232334;
+  --new_secondary_background_color: #292c3d;
+  --new_tertiary_background_color: #f1f2f3;
+  --new_quaternary_background_color: #f7f7f7;
+  --new_transparent_background_color: rgba(199, 200, 204, 0.1);
+  --new_textField_Background: #363949;
+
+  /* Text Colors */
+  --new_primary_text_color: #f1f2f3;
+  --new_secondary_text_color: #c7c8cc;
+  --new_tertiary_text_color: #232334;
+  --new_quaternary_text_color: #525461;
+  --new_danger_text_color: #fa7070;
+  --new_success_text_color: #a3f056;
+  --new_warning_text_color: #f9d776;
+  --new_brand_text_color: #7962fa;
+  --new_info_text_color: #8c77ff;
+  --new_link_color: #d7d8da;
+  --new_activeLink_color: #b6aaff;
+  --new_sidebar_text_color: #f2efff;
+  --new_desc_text_color: #b5b5ba;
+  --new_moreItems_link_color: #b2a6f7;
+  --new_green_text_color: #4a7800;
+  --new_table_green_color: #94c843;
+  --new_table_secondary_color: #c4c4c4;
+  --new_subText_color: #8f919e;
+  --new_landingPage_color: #f2f2f3;
+  --new_input_field_color: #cfcfcf;
+
+  /* Border Color */
+  --new_primary_border_color: rgba(204, 206, 208, 0.6);
+  --new_link_border_color: #9987ff;
+  --new_secondary_border_color: #545263;
+
+  /* Tertiary Colors */
+  --new_danger_tertiary_color: #ef4e4e;
+  --new_success_tertiary_color: #8ded2d;
+  --new_warning_tertiary_color: #f7c948;
+
+  /* Badge Color */
+  --new_green_badge_color: #abdb5e;
+}

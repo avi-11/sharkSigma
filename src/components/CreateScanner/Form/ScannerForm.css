@@ -1,0 +1,91 @@
+.form_card {
+  padding: 2rem;
+}
+.form_card form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.scanner_form .form-label {
+  display: inline;
+}
+.scanner_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  width: 50%;
+}
+.scanner_form label {
+  float: left;
+  text-align: left;
+  color: rgba(195, 203, 220, 0.92);
+  font-weight: 700;
+}
+.scanner_form input {
+  float: right;
+  border: 1px solid #62667c;
+  border-radius: 5px;
+  background-color: transparent;
+  width: 70%;
+  height: 2rem;
+  padding: 0.4rem;
+  padding-left: 20%;
+  text-align: left;
+  font-family: Lato;
+  font-weight: 700;
+  /* color:#62667C; */
+  color:#ffffff;
+}
+.scanner_form input::placeholder{
+  color: rgba(134, 139, 150, 0.92);
+}
+::-webkit-file-upload-button {
+  background: transparent;
+  border: none;
+  color: rgba(40, 195, 244, 0.92);
+  padding: 0rem;
+  display: inline;
+  border: none;
+}
+
+.scanner_form_save {
+  width: 50%;
+  height: 10opx;
+  position: relative;
+}
+.scanner_form_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: flex-end;
+  width: 50%;
+  gap: 1rem;
+}
+.scanner_form_button .save {
+  background: none;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 5px 30px;
+  color: #ffffff;
+}
+.scanner_form_button .save:hover{
+  border: 1.5px solid #ffffff;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+.scanner_form_button .upload {
+    border: none;
+  border-radius: 5px;
+  background-color: #1c2d46;
+  color: rgba(79, 127, 252, 1);
+  padding: 6px 30px;
+}
+.scanner_form_button .upload:hover{
+  border: 1.5px solid rgba(79, 127, 252, 1);
+  background:none;
+  transition: 0.4s ease-in-out;
+}
+
+/* .scanner_form input :focus{
+  color: red !important;
+} */

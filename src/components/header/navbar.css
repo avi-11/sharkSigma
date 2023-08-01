@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.myactivetext h5 {
+  color: var(--heading_color) !important;
+}
+
+.myactivetext li {
+  background-color: var(--new_transparent_background_color) !important;
+  border-radius: 5px !important;
+}
+
+.myactivetext li img {
+  filter: invert(0) sepia(100%) saturate(0%) hue-rotate(0) brightness(200%)
+    contrast(200%);
+}

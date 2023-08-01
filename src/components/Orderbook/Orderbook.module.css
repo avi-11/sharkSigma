@@ -1,0 +1,112 @@
+.order__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    border-bottom: 1px solid var(--userProfile_border);
+  }
+  
+  .order__header_heading > h3 {
+    font-weight: 700;
+    color: var(--heading_color);
+  }
+
+  .OrderTable{
+    position: relative;
+    top: 2rem;
+  }
+  
+  .order__header_heading > p {
+    color: var(--headingDescription_color);
+    font-weight: 500;
+    letter-spacing: 0.25px;
+  }
+
+  .strategyVault__main > table {
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+  }
+  
+  .strategyVault__main > table > thead > tr,
+  .strategyVault__main > table > tbody {
+    border: none;
+  }
+  
+  .strategyVault__main > table > tbody > tr {
+    background-color: var(--strategyVaultTableRow_bgColor);
+  }
+  
+  .strategyVault__main > table > thead > tr > *,
+  .strategyVault__main > table > tbody > * {
+    width: 12%;
+  }
+  
+  .strategyVault__main > table > thead > tr:hover {
+    background-color: transparent;
+  }
+  
+  .strategyVault__main > table > tbody > tr:hover {
+    background-color: rgb(84, 84, 84);
+    color: var(--sidebar_background_color);
+    cursor: pointer;
+  }
+  
+  .isActive__true,
+  .isActive__false {
+    width: calc(6px + 0.15vw);
+    height: calc(6px + 0.15vw);
+    border-radius: 50%;
+  }
+  .isActive__true {
+    background-color: var(--greenColor);
+  }
+  .isActive__false {
+    background-color: var(--redColor);
+  }
+  
+  .strategyType,
+  .brokerage,
+  .initialCapital {
+    width: max-content;
+  
+    background-color: var(--strategyType_BGColor);
+    color: var(--strategyType_TextColor);
+    border-radius: 100px;
+  
+    padding: 0.15rem 0.5rem;
+  }
+  .brokerage {
+    background-color: var(--brokerage_BGColor);
+    border-radius: 3px;
+  }
+  .initialCapital {
+    background-color: var(--initialCapital_BGColor);
+  }
+  
+  .strategyButton__Container {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .deleteStrategyButton,
+  .editStrategyButton,
+  .activateStrategyButton {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-right: 0.5rem;
+  }
+  
+  .activateStrategyButton {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(195, 203, 220, 0.92);
+  }
+
+  .order_dropdown {
+    display: flex;
+  
+    padding: 1rem 0;
+  }

@@ -1,0 +1,103 @@
+.sidebar {
+  background-color: var(--new_secondary_background_color);
+  position: absolute;
+  height: 91.7vh;
+  padding: 15px 7px 0px 7px;
+  margin-top: 5px;
+  z-index: 10;
+  padding-top: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar__header {
+  color: var(--new_sidebar_text_color);
+  font-size: calc(14px + 0.05vw);
+  margin-left: 1rem;
+}
+
+.sidebar__linkContainer,
+.sidebarClosed__linkContainer {
+  list-style: none;
+  padding: 0rem;
+}
+.sidebarClosed__linkContainer {
+  list-style: none;
+  padding: 0rem;
+}
+
+.sidebar__linkContainer a {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.sidebar__linkContainer > a > li:hover,
+.sidebarClosed__linkContainer > a > li:hover {
+  background-color: var(--new_primary_background_color) !important;
+  border-radius: 5px !important;
+}
+
+.sidebar__linkContainer li {
+  box-sizing: border-box;
+  display: flex;
+  padding: 0.5rem 2.5rem 0.5rem 1.2rem;
+  margin: 1rem 0rem;
+  align-items: flex-start;
+  color: var(--new_link_color);
+  text-align: left;
+}
+
+.sidebar__linkContainer li:hover,
+.sidebarClosed__linkContainer li:hover {
+  color: var(--new_primary_text_color);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.sidebar__linkContainer li:hover img,
+.sidebarClosed__linkContainer li:hover img {
+  filter: invert(0) sepia(100%) saturate(0%) hue-rotate(0) brightness(200%)
+    contrast(200%);
+}
+
+.sidebar__linkContainer li img,
+.sidebarClosed__linkContainer li img {
+  margin-right: 0.95rem;
+  width: calc(1.5rem + 0.05vw);
+}
+
+.sidebar__linkContainer li h5 {
+  font-size: calc(0.9rem + 0.05vw);
+  font-weight: 500;
+  letter-spacing: 0.45px;
+  margin: 0px;
+}
+
+.sidebarClosed__linkContainer {
+  margin: 0.75rem 0rem;
+}
+
+.sidebarClosed__linkContainer li {
+  padding: 0.95rem 1rem;
+  text-align: center;
+  margin: 0.5rem 0rem;
+}
+
+.sidebarClosed__linkContainer li img {
+  margin: auto;
+}
+
+.sidebar__metaContainer > div {
+  border-top: 1px solid var(--new_primary_border_color);
+  padding-top: 20px;
+}
+
+.sidebar__metaContainer > div > ul {
+  margin-left: 10px;
+}
+
+.sidebar__metaContainer > div > ul > li {
+  margin: 0px 0px;
+  font-size: 14px;
+}

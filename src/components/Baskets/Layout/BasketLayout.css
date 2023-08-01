@@ -1,0 +1,269 @@
+.basket {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.basket_head {
+  color: #ffffff;
+  word-spacing: 0.2rem;
+  width: 100% !important;
+  margin-bottom: 2rem;
+}
+.basket_head p {
+  color: rgba(195, 203, 220, 0.92);
+  display: flex;
+  align-items: center;
+}
+.basket_head a {
+  margin-left: 10px;
+  color: var(--blue_heading_color);
+  /* border-bottom: 0.2px solid var(--blue_heading_color); */
+}
+.basket_head a span {
+  border-bottom: 0.2px solid var(--blue_heading_color);
+}
+.basket__rightArrow {
+  width: 1.5rem;
+}
+
+
+.fav_baskets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.fav_baskets button {
+  background: none;
+  border: none;
+  color: rgba(40, 195, 244, 0.92);
+}
+
+.create_nd_search_basket {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  align-items: center;
+
+  width: 100% !important;
+}
+.basket_search {
+  width: 25rem;
+  background-color: rgba(196, 196, 196, 0.1);
+  border: 1px solid #62667c;
+  border-radius: 8px;
+  padding: 4px 10px;
+  color: #ffffff;
+}
+
+
+.basket_entry {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 350px;
+  padding: 1.5rem;
+  background-color: rgba(19, 20, 25, 1);
+}
+.basket_entry .basket_input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.basket_entry .basket_input input {
+  border: 1px solid rgba(98, 102, 124, 1);
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 2px 8px;
+  color: #ffffff;
+  font-size: small;
+}
+.basket_entry label {
+  color: rgba(195, 203, 220, 0.92);
+}
+.basket_entry .basket_button {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+.basket_button .basket_cancel {
+  background: transparent;
+  border: 1px solid rgba(98, 102, 124, 1);
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 2px 8px;
+}
+
+.basket_button .basket_create {
+  background-color: #0b81ee;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 2px 8px;
+}
+
+.basket_table {
+  position: relative;
+}
+
+.basket_table > table {
+  background-color: var(--accountManagementTable_background);
+}
+
+.search_result {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 400px;
+  height: 250px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 1rem 1.5rem;
+  background-color: rgba(19, 20, 25, 1);
+}
+.search_outcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.3rem;
+  align-items: center;
+}
+.search_outcome button {
+  font-size: x-small;
+  width: 3.5rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
+.search_outcome .search_ticker {
+  border: none;
+  color: #4f7ffc;
+  background-color: rgba(28, 45, 70, 0.7);
+}
+
+.search_outcome .search_ticker:hover {
+  background-color: transparent;
+  border: 1px solid #4f7ffc;
+  transition: 0.6s;
+  border-radius: 5px;
+}
+
+.search_outcome .search_add {
+  background-color: rgba(79, 92, 110, 1);
+  color: rgba(195, 203, 220, 1);
+  border: none;
+}
+.search_outcome h6:hover {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.6rem !important;
+  color: #ffffff !important;
+}
+.search_outcome .search_add:hover {
+  background-color: transparent;
+  border: 1px solid rgba(195, 203, 220, 1);
+  transition: 0.6s;
+  border-radius: 5px;
+}
+.search_result::-webkit-scrollbar {
+  width: 8px;
+}
+.search_result::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #4f5c6e;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.search_result::-webkit-scrollbar-thumb {
+  background-origin: 5px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.fav_baskets_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.newBasket_button {
+  border: 1px solid #62667c;
+  background: transparent;
+  border-radius: 20px;
+  padding: 5px 30px;
+  color: rgba(195, 203, 220, 0.92);
+  width: 11rem;
+  height: 2rem;
+}
+.newBasket_button:hover,
+.newBasket_button:focus {
+  background-color: #1f2026;
+  border: none;
+}
+.del_basket_icon {
+  float: right;
+  position: relative;
+  top: 3px;
+}
+#profile_dropdown {
+  background-color: #131419;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-height: 6rem;
+  min-width: 6rem;
+  z-index: 100;
+}
+#profile_dropdown div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+}
+#profile_dropdown div:hover {
+  color: #0b81ee;
+}
+#profile_dropdown a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#profile_dropdown li {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  top: -3px;
+}
+
+
+/* New Styles */
+.basketLabel__container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  gap: 2rem;
+}
+
+.basketLayout__exportBasketData > div {
+  border: 2px solid transparent;
+}
+
+.basketLayout__exportBasketData > div > p {
+  background-color: var(--createBasketButton_background);
+  border: 2px solid var(--createBasketButton_background);
+  text-transform: uppercase;
+  color: white;
+
+  font-weight: 600;
+  font-size: 0.75rem;
+
+  padding: 0.5rem 2rem;
+  border-radius: 10rem;
+
+  text-align: right
+}
+
+.basketLayout__exportBasketData > div > p:hover {
+  background-color: transparent;
+}

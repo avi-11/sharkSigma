@@ -1,0 +1,109 @@
+.welcomeText {
+  border-bottom: 0.6px solid var(--new_quaternary_text_color);
+}
+
+.welcomeText > h2 {
+  color: var(--new_primary_text_color);
+}
+
+.welcomeText > p {
+  color: var(--new_secondary_text_color);
+}
+
+/* Next Row */
+.performanceIndex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: calc(30px + 0.1vh);
+
+  border-bottom: 0.6px solid var(--new_quaternary_text_color);
+}
+
+.performanceIndex h3,
+.strategiesList h3,
+.openPositions h3 {
+  color: var(--new_primary_text_color);
+  font-size: calc(20px + 0.05vw);
+}
+
+.performanceValues {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 36px;
+}
+
+.performanceValues__profits {
+  padding-right: 40px;
+  border-right: 1px solid var(--new_secondary_border_color);
+}
+
+.profitValue {
+  color: var(--new_primary_text_color);
+  font-size: calc(47px + 0.05vw);
+  margin-bottom: 0.5rem;
+}
+
+.capitalValue {
+  color: var(--new_desc_text_color);
+  font-size: calc(16px + 0.05vw);
+}
+
+.capitalValue > span {
+  margin-left: 7px;
+  font-size: calc(18px + 0.05vw);
+}
+
+.performanceValues__capital {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+
+.capitalValue > span {
+  color: var(--new_link_color);
+}
+
+.performanceBoard {
+  width: 516px;
+  height: 171px;
+  border-radius: 10px;
+  background-color: var(--new_secondary_background_color);
+  border: 1px solid var(--new_quaternary_text_color);
+}
+
+.link {
+  width: fit-content;
+  color: var(--new_moreItems_link_color);
+  text-align: right;
+  margin-top: 10px;
+  margin-left: auto;
+  border-bottom: 1px solid var(--new_link_border_color);
+}
+.link:hover {
+  color: var(--new_link_color);
+  border-color: var(--new_link_color);
+  cursor: pointer;
+}
+
+/* Next Row */
+.strategiesList {
+  margin-top: 18px;
+  border-bottom: 0.6px solid var(--new_quaternary_text_color);
+}
+
+.strategyCards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-top: 23px;
+}
+
+/* Next Row */
+.openPositions {
+  margin-top: 36px;
+}

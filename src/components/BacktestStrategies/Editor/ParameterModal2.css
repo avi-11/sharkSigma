@@ -1,0 +1,4 @@
+.ant-modal-content,
+.ant-modal-header {
+  background-color: var(--new_secondary_background_color) !important;
+}

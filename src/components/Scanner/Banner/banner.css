@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+.b_flex{
+    display: flex;
+    flex-direction: row;
+    color:#FFFFFF;
+    /* position: relative; */
+    justify-content: space-between;
+    gap: 1.5rem;
+    max-height: 125px;
+}
+.b_col_one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    width: 116px;
+    height: 123px;
+}
+.knight_bg{
+    /* width: 80%;
+    height: 80%; */
+    background-color: #131419;
+    border-radius: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    left: 0px; */
+    padding: 1rem;
+}
+.two_columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap:1rem;
+}
+.b_col_two{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    /* width:50%; */
+    text-align: left;
+}
+.b_col_two a{
+text-decoration: none;
+color: rgba(40, 195, 244, 0.92);;
+}
+.b_col_two p{
+    text-align: justify;
+    font-family: Lato;
+    font-weight: 400;
+    color: rgba(147, 154, 169, 0.92);
+    line-height: 21px;
+}
+.b_col_two h3{
+    font-weight:700;
+    font-family: Lato;
+}
+.b_col_three{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.3rem 1rem 1.3rem;
+    background-color:#131419;
+    border-radius: 3px;
+}
+.b_values{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    align-items: center;
+    gap:1rem;
+}
+.b_col_three h6{
+    font-size: xx-small;
+}
+.b_col_three p{
+    font-size: large;
+}
+.b_col_two a{
+    text-decoration: none;
+}
+
+
+/* veiw details */
+
+.strategy_details{
+    background-color: #131419;
+    padding: 1rem 3rem 4rem 3rem;
+    border-radius: 5px;
+    width: 400px;
+    height: 250px;
+    margin-left: 20vw;
+    margin-top: -20px;
+    border :1px solid #FFFFFF;
+}
+
+.title{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.strategy_details img{
+   float: right;
+   background-color: rgba(58, 56, 56, 1);
+   border-radius: 50%;
+   padding: 2px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 0.4rem;
+    gap: 1rem;
+    color: #FFFFFF;
+}
+.keys{
+    color:  #9C9C9C;
+}
+.details div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.8rem;
+}

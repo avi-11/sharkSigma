@@ -1,0 +1,164 @@
+.topbar {
+  background-color: var(--new_secondary_background_color);
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar__brand {
+  padding: 0rem 0rem;
+}
+
+.topbar__brand__hamburgerMenu {
+  width: 1.75rem;
+  cursor: pointer;
+}
+
+.topbar__brand__logo {
+  width: calc(9.5rem + 0.05vw);
+  height: calc(1.9rem + 0.05vh);
+  margin-left: 0.8rem;
+}
+
+.topbar__useProfile {
+  background-color: var(--new_secondary_background_color);
+  border: 2px solid var(--new_tertiary_background_color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.topbar__useProfile > p {
+  color: var(--new_tertiary_background_color);
+  padding: 0rem 0.5rem;
+  margin: 0rem;
+}
+
+.topbar__userProfile__image {
+  border-radius: 50%;
+  width: calc(1rem + 0.5vw);
+}
+
+.topbar__userProfile__downArrow {
+  width: calc(0.5rem + 0.5vw);
+}
+
+.topbar__dropdown {
+  position: absolute;
+  top: 44px;
+  right: 1.5rem;
+  background-color: var(--sidebar_background_color);
+  border: 2px solid var(--userProfile_border);
+  color: var(--primary_text_color);
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+
+  z-index: 10000 !important;
+}
+
+.topbar__dropdown div {
+  display: flex;
+  padding: 0.25rem 0rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbar__dropdown div:hover {
+  color: var(--blue_heading_color);
+}
+
+.topbar__dropdown a {
+  text-decoration: none;
+  color: var(--link_color);
+}
+
+.topbar__dropdown li {
+  list-style: none;
+  padding: 0rem 0rem 0rem 0.75rem;
+}
+
+/* Styles for Market Toggle Buttons  */
+
+.topbar__main_top > input[type="radio"] {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+.topbar__main_top > label {
+  display: block;
+  text-align: right;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  margin: 0rem 0.5rem;
+  padding: 0.25rem 1rem;
+  font-size: calc(0.9rem +0.1vw);
+}
+
+.topbar__main_top > label:hover {
+  border-bottom: solid 3px rgba(0, 99, 80, 255);
+}
+
+.topbar__main_top > input[type="radio"]:checked + label {
+  border-bottom: solid 3px rgba(0, 99, 80, 255);
+}
+
+.topbar__main_top {
+  font-size: smaller;
+  margin-left: 0.2rem;
+  padding: 0.1rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  float: right;
+}
+
+/* Links to different pages */
+.topbar__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbarLinks__link > ul {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-right: 20px;
+  border-right: 1px solid var(--new_primary_border_color);
+  margin: 0px 26px 0px 0px;
+}
+
+.topbarLinks__link > ul > li > .Link {
+  margin: 0px 20px;
+  text-decoration: none;
+  color: var(--new_link_color);
+  font-size: 14px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+}
+.topbarLinks__link > ul > li > .Link:hover {
+  color: var(--new_activeLink_color);
+}
+
+.topbarLinks__link > ul > li > .activeLink {
+  margin: 0px 20px;
+  text-decoration: none;
+  color: var(--new_link_color);
+  font-size: 14px;
+  color: var(--new_activeLink_color);
+  border-color: var(--new_activeLink_color);
+}
+
+.topbar__notificationIcon {
+  margin-right: 20px;
+  cursor: pointer;
+}

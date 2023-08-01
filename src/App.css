@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  /* Background Styling */
+  --primary_background_color: #333;
+  --sidebar_background_color: #010509;
+  --topbar_background_color: #010509;
+  --topbar_linkBackground_color: #141418;
+  --timelineBackgroud: rgba(11, 12, 13, 0.4);
+  --accountManagementTable_background: #0b0c0d;
+  --createBasketButton_background: rgba(11, 129, 238, 0.3);
+  --createBasketForm_background: #131419;
+  --basketLabe_hoverBackground: #161515;
+  --dividing_line: #e8e8e8;
+  --cancelButtonColor: rgba(191, 191, 191, 0.1);
+  --saveButtonColor: #3f72f3;
+  --greenColor: #1db954;
+  --redColor: #d95d51;
+
+  /* Updated Ones */
+  --pagination_button_background: #3d3d3d;
+  --marketOverview_card_bakground: #0b0c0d;
+  --dropdown_background: #232334;
+  --addInstrumentToBasket_btnColor: #4f5c6e;
+  --tickerBackgroundColor: rgba(28, 45, 70, 0.7);
+  --inputFieldBorder_color: #9e9e9e;
+  --strategyVaultTableRow_bgColor: #212124;
+
+  /* Hover Background Colors */
+  --hover_ondarkbackground_color: #262629;
+  --lighthover_background_color: #1f2026;
+  --pagination_buttonHover_background: #4f7ffc;
+  --dropdown_hover: rgba(54, 54, 74, 0.16);
+
+  /* Text Colors */
+  --primary_text_color: rgba(195, 203, 220, 0.92);
+  --dark_text_color: rgba(134, 139, 150, 0.92);
+  --heading_color: #f8f8f8;
+  --headingDescription_color: #9d9d9d;
+  --link_color: rgba(195, 203, 220, 0.92);
+  --blue_heading_color: #0b81ee;
+  --sidebar_link_color: #c3cbdc;
+  --sidebar_heading_color: rgba(26, 32, 44, 0.92);
+  --pagination_pageNumber_color: #cfcfcf;
+  --searchBasket_HeaderColor: #7c818c;
+  --parameterModal_subHeading: #c4c4c4;
+  --updateText_color: #7a7a7a;
+
+  /* Font Sizes */
+  --heading_font_size: calc(1.25rem + 0.5vw);
+  --introText_font_size: calc(0.75rem + 0.5vw);
+
+  /* Border Styles -- Border Radius */
+  --standard_blue_border: #0b81ee;
+  --userProfile_border: #424245;
+  --divider_line_color: #958f8f;
+  --AccountManagementTable_separatorBorder: #4f4c4c;
+  --AccountManagementTable_userSelectCheckbox: #8f919d;
+  --creteBasketInput_border: #62667c;
+  --cancelButton_border: #bfbfbf;
+
+  --circle_border_radius: 50%;
+  --light_border_radius: 5px;
+  --heavy_border_radius: 10px;
+  --ellipse_border_radius: 20px;
+
+  /* Strategy Vault Colors */
+  --strategyType_BGColor: #99bafd;
+  --strategyType_TextColor: #102046;
+  --brokerage_BGColor: #60f1db;
+  --initialCapital_BGColor: #d9d9d9;
+}
+
+* {
+  /* transition: all 0.2s ease-in-out; */
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.app {
+  overflow: hidden;
+}
+
+.outer__mainContainer {
+  background: var(--new_primary_background_color) !important;
+  width: 100% !important;
+  height: 91.69vh !important;
+  scroll-behavior: smooth;
+  overflow-y: scroll !important;
+}
+
+.outer__mainContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.outer__mainContainer::-webkit-scrollbar-thumb {
+  background-color: var(--new_link_border_color);
+}
+
+.inner__mainContainer {
+  width: 95%;
+  padding-top: 3rem;
+  padding-left: 8rem;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  fill: var(--AccountManagementTable_userSelectCheckbox) !important;
+}
+
+.css-6j8wv5-Input > input,
+.css-1pndypt-Input > input,
+.css-1pndypt-Input,
+.css-6j8wv5-Input {
+  color: white !important;
+}

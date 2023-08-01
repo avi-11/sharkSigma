@@ -1,0 +1,127 @@
+.overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+
+  background-color: var(--primary_background_color);
+  width: 100vw;
+  height: 100vh;
+  content: "";
+
+  opacity: 0.8;
+  z-index: 10;
+}
+
+.divider {
+  height: 0.6px;
+  width: 100%;
+
+  margin: 17px 0px 26px 0px;
+  background-color: rgba(142, 149, 155, 0.67);
+}
+
+.parameterModalContainer {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  max-width: calc(850px + 1vw);
+  width: 70%;
+
+  color: var(--whiteColor);
+  background-color: rgba(47, 49, 64, 0.87);
+  border-radius: 4px;
+
+  transform: translateX(-50%);
+
+  opacity: 1;
+  z-index: 100;
+}
+
+.parameterModal {
+  padding: 30px;
+}
+
+.parameterModalHeader > p {
+  color: var(--parameterModal_subHeading);
+}
+
+.parameterModalForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 20px;
+}
+
+.parameterModalForm > div {
+  display: grid;
+  grid-template-columns: 1fr 2fr 0.5fr;
+}
+
+.parameterModalForm > div > label {
+  align-self: center;
+  color: var(--whiteColor);
+  font-size: calc(13px + 0.05vw);
+  width: 95%;
+}
+
+.parameterModalForm > div > input {
+  min-height: 40px;
+  outline: none;
+  background-color: var(--new_secondary_background_color);
+  border: 0.4px solid rgba(142, 149, 155, 0.67);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--new_input_field_color);
+  padding: 0px 12px;
+}
+
+.parameterModalForm > div > input::-webkit-calendar-picker-indicator {
+  color: white;
+  filter: brightness(0) invert(1);
+  width: 20px;
+  height: 20px;
+}
+
+.parameterModalForm > div > span {
+  padding: 8px 8px 0px 8px;
+  width: max-content;
+
+  background-color: var(--new_secondary_background_color);
+  border: 0.4px solid rgba(142, 149, 155, 0.67);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--new_input_field_color);
+}
+
+.parameterModalButtons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.parameterModalButtons > button {
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+
+  color: var(--whitecolor);
+  transition: all 0.2s ease-in-out;
+}
+
+.cancelButton {
+  background-color: var(--secondary_button_color);
+  border: 1px solid var(--secondary_button_color);
+  color: var(--new_primary_background_color) !important;
+}
+.cancelButton:hover {
+  background-color: transparent;
+  color: var(--secondary_button_color) !important;
+}
+
+.saveButton {
+  background-color: var(--new_brand_text_color);
+  border: 1px solid var(--new_brand_text_color);
+  border-radius: 4px;
+}
+.saveButton:hover {
+  background-color: transparent;
+}

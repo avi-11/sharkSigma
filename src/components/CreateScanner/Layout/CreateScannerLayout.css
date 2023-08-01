@@ -1,0 +1,64 @@
+.create_scanner_page{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap:1rem;
+    padding-bottom: 2rem;
+}
+.create_scanner_page h3{
+    font-weight: bold;
+}
+.create_scanner_page p{
+    color:rgba(134, 139, 150, 0.92);
+}
+.create_scanner_page .card{
+    padding: 1rem;
+}
+.create_scanner_page .card a{
+    text-decoration: none;
+    color:hsla(194, 91%, 56%, 0.92);
+}
+.create_scanner_page a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+.scanner_data{
+    color: #FFFFFF;
+    line-height: 0.1rem;
+}
+
+.edit_delete_button{
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    justify-content: center;
+    align-items: center;
+}
+.edit_delete_button button{
+    padding: 0.8rem 0rem;
+    position: relative;
+    top:10px;
+    border-radius: 5px;
+    width: 5rem;
+    border: none;
+}
+.edit{
+    background-color:  #1C2D46;
+    color:  hsla(223, 96%, 65%, 1);
+}
+.edit:hover{
+    background: none;
+    border: 1px solid hsla(223, 96%, 65%, 1);
+    transition: 0.6s ease-in;
+}
+.delete{
+    background-color:  #1F2026;
+    color: #7C818C;
+}
+.delete:hover{
+    background:none;
+    border: 1px solid  #7C818C;
+    transition: 0.6s ease-in;
+}

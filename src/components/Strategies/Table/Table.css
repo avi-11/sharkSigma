@@ -1,0 +1,93 @@
+/* .paginationTable {
+    border: 1px solid #41474f;
+    margin-top: 1rem;
+    border-radius: 5px;
+    margin-bottom: 7rem;
+    position: relative;
+  } */
+/* filled table */
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: rgba(187, 175, 175, 1);
+}
+
+table td,
+.createScanner_pagination_table th {
+  padding: 8px;
+}
+.createScanner_pagination_table tbody,
+.createScanner_pagination_table thead tr {
+  border-top: 1px solid rgba(130, 130, 130, 0.42);
+  border-bottom: 1px solid rgba(130, 130, 130, 0.42);
+}
+
+.createScanner_pagination_table tr {
+  transition: border 0.3s ease-in 0s, border-radius 0.3s 0s;
+  /* width: 83px; */
+  height: 3rem;
+}
+.createScanner_pagination_table tr:hover {
+  /* border-top: 2px solid rgba(130, 130, 130, 0.42);
+      border-bottom: 2px solid rgba(130, 130, 130, 0.42); */
+  box-shadow: none;
+  background-color: #131419;
+}
+.createScanner_pagination_table th,
+.createScanner_pagination_table tfoot td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: rgba(187, 175, 175, 1);
+}
+.pagination {
+  /* margin-top: 0.2rem;
+      margin-bottom: 0.1rem; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.3rem;
+  justify-content: center;
+  height: 1rem;
+}
+.pagination_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* margin-top: 0.5rem; */
+  color: rgba(187, 175, 175, 1);
+}
+.pagination_buttons button {
+  height: 1.5rem;
+  background-color: #131419;
+  border: none;
+  color: rgba(187, 175, 175, 1);
+  font-size: small;
+  margin-right: 0.4rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 3px;
+}
+.pagination_buttons button:hover {
+  background-color: hsla(214, 16%, 42%, 1);
+  border-radius: 3px;
+}
+.pagination_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  color: rgba(187, 175, 175, 1);
+}
+.page-link {
+  background-color: #131419;
+  color: rgba(187, 175, 175, 1);
+  border: none;
+}
+.page-link:hover {
+  background-color: hsla(214, 16%, 42%, 1) !important;
+}
+
+.createScanner_pagination_table > thead > tr > th {
+  width: 30%;
+}

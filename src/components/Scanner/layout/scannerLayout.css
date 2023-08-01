@@ -1,0 +1,74 @@
+.mycontainer{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin: auto;
+    position: relative;
+    max-width: 1000px;
+}
+@media(min-width:1440px){
+.mycontainer
+   {
+       max-width: 1200px;
+   }
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 1rem;
+  }
+  .navbar img{
+      padding-top: 0.4rem;
+      padding-bottom: 0.4rem;
+      border-radius: 50%;
+  }
+.card{
+    background-color: #131419;
+}
+.col_one{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* .col_one{
+    flex: 1;
+} */
+/* .col_one{
+    flex: 3;
+} */
+/* .col_one{
+    width: 20%;
+    width: auto;
+    height: 100%;
+}
+.col_two{
+    width: 80%;
+    width: auto;
+    height: 100%;
+}
+.col_one .card{
+    width: 100%;
+    height: 25%;
+}
+.row11,
+.row12,
+.row13{
+    height: 21.66%;
+    height: auto;
+}
+.row14{
+    height: 35%;
+    height: auto;
+}
+.col_two .card{
+    width:100%;
+}
+.col_two .row21{
+    height: 20%;
+    height: auto;
+}
+.col_two .row22{
+    height: auto;
+} */

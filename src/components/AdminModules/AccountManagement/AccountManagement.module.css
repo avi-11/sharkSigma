@@ -1,0 +1,121 @@
+.accountManagement { 
+    color: var(--heading_color);
+}
+
+.accountManagement__header {
+    margin-bottom: 5rem;
+}
+
+.accountManagement__header > h3 {
+    font-weight: 600;
+}
+
+.accountManagement__filterMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accountManagement__filterMenu_Search {
+    border: 1px solid var(--primary_text_color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0rem 0.2rem;
+}
+
+.accountManagement__filterMenu_Search > input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--primary_text_color);
+    font-size: calc(0.8rem + 0.15vw);
+    width: 20rem;
+}
+
+.accountManagement__filterMenu_Btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.accountManagement__filterMenu_Btns > button {
+    font-size: calc(0.75rem + 0.15vw);
+    outline: none;
+    border-radius: 6px;
+    padding: 0.25rem 0.75rem;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.accountManagement__filterMenu_addUserBtn {
+    background-color: var(--blue_heading_color);
+    color: var(--heading_color);
+    border: 2px solid var(--blue_heading_color);
+}
+
+.accountManagement__filterMenu_addUserBtn:hover{
+    background-color: transparent;
+}
+
+.accountManagement__filterMenu_exportBtn {
+    background-color: var(--primary_text_color);
+    color: var(--sidebar_heading_color) ;
+    border: 1px solid var(--primary_text_color);
+}
+
+.accountManagement__filterMenu_exportBtn:hover {
+    background-color: transparent;
+    color: var(--primary_text_color);
+}
+
+.accountManagement__paginationTable {
+    margin-top: 3rem;
+}
+
+
+/* Table Styling */
+
+.accountManagement__paginationTable > table {
+    background-color: var(--accountManagementTable_background);
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+.accountManagement__paginationTable > table > thead > tr {
+    border-top: none;
+    font-size: calc(0.95rem + 0.05vw)
+}
+
+.accountManagement__paginationTable > table > thead > tr > th:first-child, .accountManagement__paginationTable > table > tbody > tr> td:first-child {
+    padding-left: 2rem;
+}
+
+.accountManagement__paginationTable > table > thead > tr > th:last-child, .accountManagement__paginationTable > table > tbody > tr> td:last-child {
+    padding-left: 1rem;
+}
+
+.accountManagement__paginationTable > table > tbody {
+    border-bottom: none;
+    font-size: calc(0.85rem + 0.05vw)
+}
+
+.AccountManagementTable__body__editUserBtns > img:first-child {
+    margin-right: 5px;
+}
+
+.AccountManagementTable__body__editUserBtns > img:last-child {
+    margin-left: 5px;
+}
+
+.AccountManagementTable__body__editUserBtns > img {
+    width: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.AccountManagementTable__body__editUserBtns > img:hover {
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+}

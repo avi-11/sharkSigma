@@ -1,0 +1,34 @@
+.box_three{
+    color: #B4BBCB ;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap:2rem;
+    /* background-color:#131419; */
+    /* border-radius: 3px; */
+    /* padding: 1.4rem 1.5rem 1rem 1.5rem; */
+}
+.box_three div:hover{
+    color: rgba(40, 195, 244, 0.92);
+}
+.activity_icon{
+    font-size: 1.8rem;
+    color:rgba(195, 203, 220, 0.92);
+    text-decoration: none;
+
+}
+.activity_icon:hover{
+    color:rgba(40, 195, 244, 0.92);
+}
+.box_three div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box_three div  p{
+    font-size: x-small;
+    font-weight: normal;
+    margin-top: 0.2rem;
+}

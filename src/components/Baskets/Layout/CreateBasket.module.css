@@ -1,0 +1,130 @@
+.createBasket {
+  position: relative;
+}
+
+.createBasket > .createBasket__Btn {
+  background-color: var(--createBasketButton_background);
+  border: 2px solid var(--createBasketButton_background);
+  text-transform: uppercase;
+  color: white;
+
+  font-weight: 600;
+  font-size: 0.75rem;
+
+  padding: 0.5rem 2rem;
+  border-radius: 10rem;
+}
+
+.createBasket > .createBasket__Btn:hover {
+  background-color: transparent;
+}
+
+.createBasket__form {
+  position: absolute;
+  right: 0%;
+  z-index: 100;
+
+  width: 30rem;
+
+  background-color: var(--createBasketForm_background);
+  border: 3px solid var(--userProfile_border);
+  color: var(--primary_text_color);
+  font-size: 1rem;
+
+  padding: 1rem 0rem;
+  border-radius: 10px;
+}
+
+.createBasket__form > .createBasket__formHeader {
+  border-bottom: 1px solid var(--sidebar_link_color);
+  padding: 0.5rem 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.createBasket__form > .createBasket__formHeader > div {
+  display: flex;
+  align-items: center;
+}
+
+.createBasket__form > .createBasket__formHeader > div > h4 {
+  margin-right: 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.createBasket__form > .createBasket__formHeader > img {
+  position: relative;
+  /* left: 90%; */
+  width: 0.75rem;
+
+  cursor: pointer;
+}
+
+.createBasket__form > form {
+  padding: 0rem 1rem;
+}
+
+.createBasket__form > form > div {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 1.5rem 0rem;
+}
+
+.createBasket__form > form > div > label {
+  width: max-content;
+
+  padding-right: 1.25rem;
+}
+
+.createBasket__form > form > div > input {
+  border: 1px solid var(--creteBasketInput_border);
+  color: var(--primary_text_color);
+  background-color: transparent;
+  outline: none;
+
+  border-radius: 5px;
+  padding: 0.25rem;
+}
+
+.createBasket__actionButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0rem 2rem;
+}
+
+.createBasket__form > div > button {
+  width: 20%;
+
+  color: #fff;
+
+  border-radius: 5px;
+  padding: 0.25rem 0.75rem;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.createBasket__form > div > .createBasket__cancelBtn {
+  border: 1px solid var(--creteBasketInput_border);
+  background-color: transparent;
+}
+.createBasket__form > div > .createBasket__cancelBtn:hover {
+  background-color: var(--creteBasketInput_border);
+}
+
+.createBasket__form > div > .createBasket__createBtn {
+  border: 1px solid var(--standard_blue_border);
+  background-color: var(--standard_blue_border);
+}
+.createBasket__form > div > .createBasket__createBtn:hover {
+  background-color: transparent;
+}

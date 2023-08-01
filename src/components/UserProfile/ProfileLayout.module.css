@@ -1,0 +1,56 @@
+.profileLayout {
+    min-width: calc(1rem + 0.5vw);
+    max-width: calc(1rem + 1vw);
+    position: relative;
+    left: 96%;
+    text-align: right;
+}
+
+.profileLayout__img {
+    border-radius: 50%;
+    height: 2rem;
+}
+
+.profileLayout__dropdown {
+    position: absolute;
+    z-index: 1000;
+    right: 0%;
+}
+
+.profileLayout__dropdown div {
+    font-size: calc(0.5rem + 0.5vw);
+    padding: calc(0.2rem + 0.2vw) 0.25rem; 
+    transition: 0.4s all ease-in-out;
+}
+
+.brokerageItem{
+    background: #292C3D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+padding: 0.8rem 1rem;
+width: 7rem;
+margin: 1rem;
+}
+
+.brokerageItem:hover{
+    background: #7962FA;
+}
+
+.brokerageTable{
+    background: #292C3D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding: 2rem 4rem;
+margin-bottom: 2rem;
+}
+
+.in{
+background-color: #292C3D;
+}
+
+.addBro{
+    background: #292C3D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+margin: 0;
+padding: 0.5rem 1rem;
+}

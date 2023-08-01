@@ -1,0 +1,57 @@
+.editorSidebar__fileMenu {
+  position: absolute;
+  top: 100%;
+  right: 0%;
+  background: #333;
+  border-radius: 5px;
+  padding: 3px 0px;
+  z-index: 2;
+}
+
+.editorSidebar__fileMenu > * {
+  z-index: 2;
+}
+
+.editorSidebar__fileMenu > ul {
+  position: relative;
+  list-style: none;
+  padding: 0;
+  color: white;
+  z-index: 5;
+}
+
+.editorSidebar__fileMenu > ul > li {
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.editorSidebar__fileMenu > ul > li:hover {
+  background-color: #e8e8e8;
+  color: #333;
+}
+
+.closeFormBtn {
+  cursor: pointer;
+}
+
+.renameFileInput {
+  width: 90%;
+  border: 1px solid #f3f3f3;
+  outline: none;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+.editorSidebar__overlay {
+  position: absolute;
+  width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+  top: -310%;
+  left: -405%;
+  background: transparent;
+  z-index: 1;
+
+  cursor: default;
+}

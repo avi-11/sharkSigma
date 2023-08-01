@@ -1,0 +1,207 @@
+.strategyVault__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid var(--userProfile_border);
+}
+
+.strategyVault__header_heading > h3 {
+  font-weight: 700;
+  color: var(--heading_color);
+}
+
+.strategyVault__header_heading > p {
+  color: var(--headingDescription_color);
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+
+.strategyVault__header_detail {
+  display: flex;
+  align-items: center;
+}
+
+.strategyVault__header_detail > p {
+  display: flex;
+  align-items: center;
+
+  color: var(--updateText_color);
+  font-size: calc(0.6rem + 0.25vw);
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  margin: 0rem calc(2rem + 0.25vw) 0rem 0rem;
+}
+
+.strategyVault__header_detail > p div {
+  width: calc(0.25rem + 0.25vw);
+  height: calc(0.25rem + 0.25vw);
+
+  border-radius: 50%;
+  background-color: var(--greenColor);
+
+  margin: 0rem calc(0.25rem) 0rem 0rem;
+}
+
+.strategyVault__header_detail > div {
+  border-bottom: 1px solid var(--inputFieldBorder_color);
+  padding: 0rem 0.5rem 0.25rem 0.5rem;
+}
+
+.strategyVault__header_detail > div > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  margin: 0rem 0.5rem;
+
+  color: var(--inputFieldBorder_color);
+
+  font-weight: 500;
+  font-size: calc(0.5rem + 0.25vw);
+}
+
+.strategyVault__main {
+  margin: 2rem 0rem;
+}
+
+/* Table Styling */
+.strategyVault__main > table {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+
+.strategyVault__main > table > thead > tr,
+.strategyVault__main > table > tbody {
+  border: none;
+}
+
+.strategyVault__main > table > tbody > tr {
+  background-color: var(--strategyVaultTableRow_bgColor);
+}
+
+.strategyVault__main > table > thead > tr > *,
+.strategyVault__main > table > tbody > * {
+  width: 12%;
+}
+
+.strategyVault__main > table > thead > tr:hover {
+  background-color: transparent;
+}
+
+.strategyVault__main > table > tbody > tr:hover {
+  background-color: rgb(84, 84, 84);
+  color: var(--sidebar_background_color);
+  cursor: pointer;
+}
+
+.isActive__true,
+.isActive__false {
+  width: calc(6px + 0.15vw);
+  height: calc(6px + 0.15vw);
+  border-radius: 50%;
+}
+.isActive__true {
+  background-color: var(--greenColor);
+}
+.isActive__false {
+  background-color: var(--redColor);
+}
+
+.strategyType,
+.brokerage,
+.initialCapital {
+  width: max-content;
+
+  background-color: var(--strategyType_BGColor);
+  color: var(--strategyType_TextColor);
+  border-radius: 100px;
+
+  padding: 0.15rem 0.5rem;
+}
+.brokerage {
+  background-color: var(--brokerage_BGColor);
+  border-radius: 3px;
+}
+.initialCapital {
+  background-color: var(--initialCapital_BGColor);
+}
+
+.strategyButton__Container {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.deleteStrategyButton,
+.editStrategyButton,
+.activateStrategyButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-right: 0.5rem;
+}
+
+.activateStrategyButton {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(195, 203, 220, 0.92);
+}
+
+.brokerageSelectMenu {
+  background-color: #77f2fc;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.brokerageSearch {
+  display: flex;
+  align-items: center;
+
+  background-color: #363949;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+
+  padding: 5px 10px;
+}
+
+.brokerageSearch > img {
+  width: 14px;
+}
+
+.brokerageSearch input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  margin-left: 5px;
+  color: #ffffff;
+  width: 150px;
+
+  font-size: 14px;
+}
+
+.brokerageSelectMenu__options {
+  position: absolute;
+  height: 230px;
+  overflow-y: scroll;
+  z-index: 10000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.brokerageSelectMenu__options::-webkit-scrollbar {
+  width: 5px;
+}
+.brokerageSelectMenu__options::-webkit-scrollbar-track {
+  background: var(--new_secondary_background_color);
+}
+.brokerageSelectMenu__options::-webkit-scrollbar-thumb {
+  background: #888;
+}
